@@ -62,6 +62,14 @@ section > p{
     box-shadow: inset 5px 5px 20px 0px rgba(0, 0, 0, 0.501);
 }
 
+/* Solução para parallax no mobile */
+@media (max-width: 768px) {
+  .imagem {
+    background-attachment: scroll; 
+  }
+}
+
+
 .imagem-fundo{
     background-color: rgba(0, 0, 0, 0.42);
     color: white;
